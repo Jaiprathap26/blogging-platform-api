@@ -1,4 +1,4 @@
-Blogging Platform REST API
+Blogging Platform REST API:
 
 
 
@@ -8,7 +8,9 @@ This project supports full CRUD operations, search functionality, relational dat
 
 
 
-Features
+
+
+Features:
 
 
 
@@ -40,7 +42,9 @@ Clean and scalable project structure
 
 
 
-Tech Stack
+
+
+Tech Stack:
 
 
 
@@ -61,6 +65,8 @@ Documentation: Swagger UI (swagger-jsdoc, swagger-ui-express)
 
 
 Tools: Postman, GitHub
+
+
 
 
 
@@ -86,7 +92,9 @@ blogapi/
 
 
 
-Database Schema
+
+
+Database Schema:
 
 
 
@@ -142,7 +150,9 @@ tag\_id (Foreign Key)
 
 
 
-Setup Instructions
+
+
+Setup Instructions:
 
 
 
@@ -156,7 +166,9 @@ cd blogging-platform-api
 
 
 
-Install Dependencies
+
+
+Install Dependencies:
 
 
 
@@ -164,7 +176,7 @@ npm install
 
 
 
-Configure Environment Variables
+Configure Environment Variables:
 
 
 
@@ -184,7 +196,7 @@ PORT=3000
 
 
 
-Create Database \& Tables
+Create Database \& Tables:
 
 
 
@@ -244,11 +256,13 @@ CREATE TABLE post\_tags (
 
 
 
-Start the Server
+Start the Server:
 
 
 
 node server.js
+
+
 
 
 
@@ -260,7 +274,9 @@ http://localhost:3000
 
 
 
-Swagger API Documentation
+
+
+Swagger API Documentation:
 
 
 
@@ -269,6 +285,8 @@ Swagger UI is available at:
 
 
 http://localhost:3000/api-docs
+
+
 
 
 
@@ -288,7 +306,9 @@ See request/response formats
 
 
 
-API Endpoints
+
+
+API Endpoints:
 
 
 
@@ -308,7 +328,9 @@ DELETE	 /posts/{id}	     Delete a blog post
 
 
 
-Example Request (Create Post)
+
+
+Example Request (Create Post):
 
 
 
@@ -326,7 +348,10 @@ Example Request (Create Post)
 
 
 
-Data Safety
+
+
+
+Data Safety:
 
 
 
@@ -344,7 +369,9 @@ Maintains data consistency across tables
 
 
 
-Future Enhancements
+
+  
+Future Enhancements:
 
 
 
@@ -369,6 +396,7 @@ Deployment to cloud (Render / Railway)
 
 
 API rate limiting \& caching
+
 
 
 
